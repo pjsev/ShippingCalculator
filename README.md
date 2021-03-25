@@ -18,7 +18,7 @@ Content-Type: application/json
 #### with Voucher
 ```json
 {
-	"weight": 12,
+    "weight": 12,
     "height": 100,
     "width": 10,
     "length": 2,
@@ -31,7 +31,7 @@ Content-Type: application/json
 #### without Voucher
 ```json
 {
-	"weight": 8,
+    "weight": 8,
     "height": 100,
     "width": 10,
     "length": 2
