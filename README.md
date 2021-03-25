@@ -16,6 +16,7 @@ Content-Type: application/json
 
 ### Sample Request Body
 #### with Voucher
+```json
 {
 	"weight": 12,
     "height": 100,
@@ -25,17 +26,17 @@ Content-Type: application/json
     	"code":"MYNT"
     }
 }
+```
 
 #### without Voucher
+```json
 {
 	"weight": 8,
     "height": 100,
     "width": 10,
     "length": 2
 }
-
-
-
+```
 
 ## Response Payload (JSON message)
 |Field|Data Type|Description|
@@ -56,6 +57,7 @@ Content-Type: application/json
 |shippingCost|double|total shipping cost with discount|
 
 ### Sample Response
+```json
 {
     "weight": 8,
     "height": 100,
@@ -74,3 +76,4 @@ Content-Type: application/json
         "shippingCost": 67.75
     }
 }
+```
