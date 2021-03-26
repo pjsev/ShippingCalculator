@@ -31,6 +31,7 @@ public class ShippingCalcController {
 	/*
 	 * Calculates given weight, height, width and length in json format
 	 * returns ItemDetail object
+	 * 
 	 */
 	@PostMapping("/calculate")
 	@ResponseBody

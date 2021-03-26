@@ -8,5 +8,8 @@ public class ValueConditionConstants {
 	
 	public static final double maxSmallVolume = 1500;
 	public static final double maxMediumVolume = 2500;
+	
+	public static final String invalidValueMsg = "Invalid values";
+	public static final String typeNotFound = "Type not found";
 
 }

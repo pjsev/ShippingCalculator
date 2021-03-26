@@ -9,13 +9,11 @@ public class APIErrorHandler implements ResponseErrorHandler {
 
 	@Override
 	public boolean hasError(ClientHttpResponse response) throws IOException {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
 	public void handleError(ClientHttpResponse response) throws IOException {
-		// TODO Auto-generated method stub
-		
+	
 	}
 }
